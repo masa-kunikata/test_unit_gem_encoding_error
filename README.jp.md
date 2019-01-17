@@ -15,8 +15,8 @@
 ## 環境
 
 * OS : Windows 10
-* ruby : ruby 2.3.3p222 (2016-11-21 revision 56859) [x64-mingw32]
-
+* ruby : ruby 2.5.3p105 (2018-10-18 revision 65156) [x64-mingw32]
+* test-unit (3.2.9)
 
 
 ## サンプルテストの起動方法
