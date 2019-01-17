@@ -1,4 +1,4 @@
-# test/unit gem - "ArgumentError: invalid byte sequence in Windows-31J" エラーが起きる件
+# test/unit gem - "ArgumentError: invalid byte sequence in Windows-31J" エラーが、日本語Windowsで起きる件
 
 ## エラーの起きる条件
 
@@ -7,9 +7,9 @@
 
 |テストファイル名| パターン|エラー|
 |:--|:--|:----:|
-|encoding_error_test.rb| __マジックコメントなし__ / __ブロックにテスト__ |__起きる__|
-|no_encoding_error_test.rb| マジックコメントあり / __ブロックにテスト__ |なし|
-|no_encoding_error_test_method_test.rb| __マジックコメントなし__ / メソッドでテスト |なし|
+|[encoding_error_test.rb](test/encoding_error_test.rb)                              | __マジックコメントなし__ / __ブロックにテスト__ |__起きる__|
+|[no_encoding_error_test.rb](test/no_encoding_error_test.rb)                        | マジックコメントあり / __ブロックにテスト__ |なし|
+|[no_encoding_error_test_method_test.rb](test/no_encoding_error_test_method_test.rb)| __マジックコメントなし__ / メソッドでテスト |なし|
 
 
 ## 環境
