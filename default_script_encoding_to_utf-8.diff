@@ -1,0 +1,25 @@
+ lib/test/unit/code-snippet-fetcher.rb | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/lib/test/unit/code-snippet-fetcher.rb b/lib/test/unit/code-snippet-fetcher.rb
+index 7969a07..1b46775 100644
+--- a/lib/test/unit/code-snippet-fetcher.rb
++++ b/lib/test/unit/code-snippet-fetcher.rb
+@@ -42,7 +42,7 @@ module Test
+ 
+       def detect_encoding(first_line)
+         return nil unless first_line.respond_to?(:ascii_only?)
+-        return nil unless first_line.ascii_only?
++        return Encoding::UTF_8 unless first_line.ascii_only?
+         if /\b(?:en)?coding[:=]\s*([a-z\d_-]+)/i =~ first_line
+           begin
+             Encoding.find($1)
+@@ -50,7 +50,7 @@ module Test
+             nil
+           end
+         else
+-          nil
++          Encoding::UTF_8
+         end
+       end
+     end

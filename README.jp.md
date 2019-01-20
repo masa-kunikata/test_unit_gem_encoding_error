@@ -29,6 +29,8 @@
 > rake
 ```
 
-## 質問
+## 提案
 
-ブロックにテストを書く場合は、マジックコメントの明示が必要でしょうか？
+マジックコメントがないテストスクリプトの場合に、デフォルトのエンコーディングとしてUTF-8にすることで解決できそうでした。
+
+[default_script_encoding_to_utf-8.diff](default_script_encoding_to_utf-8.diff)

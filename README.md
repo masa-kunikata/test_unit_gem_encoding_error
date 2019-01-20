@@ -29,6 +29,8 @@ Open a command prompt and set the current directory to the folder path of this f
 > rake
 ```
 
-## Question
+## Suggestion
 
-Is it necessary to specify an encoding magic comment, when writing tests in blocks?
+I could get it solved by setting the test script encoding to UTF-8 if it doesn't have the magic comment. 
+
+[default_script_encoding_to_utf-8.diff](default_script_encoding_to_utf-8.diff)
