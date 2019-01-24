@@ -34,3 +34,11 @@
 マジックコメントがないテストスクリプトの場合に、デフォルトのエンコーディングとしてUTF-8にすることで解決できそうでした。
 
 [default_script_encoding_to_utf-8.diff](default_script_encoding_to_utf-8.diff)
+
+## 結果
+
+[Issue #161](https://github.com/test-unit/test-unit/issues/161)
+
+test-unit (3.3.0) で、修正していただきました
+
+https://github.com/test-unit/test-unit/blob/master/doc/text/news.md#330---2019-01-23-version-3-3-0

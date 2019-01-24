@@ -34,3 +34,11 @@ Open a command prompt and set the current directory to the folder path of this f
 I could get it solved by setting the test script encoding to UTF-8 if it doesn't have the magic comment. 
 
 [default_script_encoding_to_utf-8.diff](default_script_encoding_to_utf-8.diff)
+
+## Conclusion
+
+[Issue #161](https://github.com/test-unit/test-unit/issues/161)
+
+@kou fixed it in version 3.3.0.
+
+https://github.com/test-unit/test-unit/blob/master/doc/text/news.md#330---2019-01-23-version-3-3-0
